@@ -1,0 +1,215 @@
+.container {
+  margin: auto;
+  margin-top: 10rem;
+}
+.Results {
+  width: 20%;
+  height: 25rem;
+  border: solid 1px white;
+  background-color: #5a2cbd;
+  border-radius: 15px;
+}
+.Results h2 {
+  color: rgb(170, 183, 195);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.score h1 {
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.score h5 {
+  color: rgb(170, 183, 195);
+  text-align: center;
+}
+.score {
+  border: solid 2px wheat;
+  margin: auto;
+  border-radius: 500%;
+  width: 8rem;
+  height: 8rem;
+  background-color: #3c0fa4;
+}
+.Results h3 {
+  text-align: center;
+  color: aliceblue;
+}
+.Results h4 {
+  text-align: center;
+  color: rgb(170, 183, 195);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.summary button {
+  background-color: #22026c;
+  color: aliceblue;
+  margin-left: 2rem;
+  height: 3rem;
+  width: 10em;
+  margin-top: 2rem;
+  border-radius: 24px;
+}
+.summary h2 {
+  color: rgb(12, 17, 21);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.marks {
+  display: flex;
+  gap: 2rem;
+}
+.marks-1 h3 {
+  color: rgb(255, 38, 38);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.marks-11 img {
+  margin-left: 1rem;
+}
+.marks-11 span {
+  color: #918b9e;
+}
+.marks-11 h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.marks-11 {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  border: solid 0.5px rgb(241, 199, 189);
+  border-radius: 10px;
+  width: 14rem;
+  height: 3rem;
+  align-items: center;
+}
+
+.marks-1 img {
+  height: 4rem;
+  width: 1rem;
+}
+.marks-2 {
+  margin-top: 1px;
+}
+.marks-2 h4 {
+  margin-top: 2rem;
+}
+.attribution {
+  margin-top: 10rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 576px) {
+  .container {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .Results {
+    width: 90%;
+    height: 20rem;
+    border: solid 1px white;
+    background-color: #5a2cbd;
+    border-radius: 15px;
+  }
+  .Results h2 {
+    color: rgb(170, 183, 195);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+  .score h1 {
+    color: white;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .score h5 {
+    color: rgb(170, 183, 195);
+    text-align: center;
+  }
+  .score {
+    border: solid 2px wheat;
+    margin: auto;
+    border-radius: 500%;
+    width: 6rem;
+    height: 6rem;
+    background-color: #3c0fa4;
+  }
+  .Results h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+  }
+  .Results h4 {
+    text-align: center;
+    font-size: medium;
+    color: rgb(170, 183, 195);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .summary button {
+    background-color: #22026c;
+    color: aliceblue;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 10em;
+    margin-top: 2rem;
+    border-radius: 24px;
+  }
+  .summary h2 {
+    color: rgb(12, 17, 21);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .marks {
+    display: flex;
+    gap: 2rem;
+  }
+  .marks-1 h3 {
+    color: rgb(255, 38, 38);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .marks-11 img {
+    margin-left: 1rem;
+  }
+  .marks-11 span {
+    color: #918b9e;
+  }
+  .marks-11 h4 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .marks-11 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    border: solid 0.5px rgb(241, 199, 189);
+    border-radius: 10px;
+    width: 14rem;
+    height: 3rem;
+    align-items: center;
+  }
+
+  .marks-1 img {
+    height: 4rem;
+    width: 1rem;
+  }
+  .marks-2 {
+    margin-top: 1px;
+  }
+  .marks-2 h4 {
+    margin-top: 2rem;
+  }
+  .attribution {
+    margin-top: 10rem;
+  }
+}
